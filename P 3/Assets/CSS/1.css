@@ -1,0 +1,20 @@
+/*selector {
+	propiedad:valor;
+	propiedad:valor;
+}*/
+
+.miprimerdiv {
+	color: red;
+	font-size: 15px;
+
+}
+#yosoytuid {
+	color: green;
+}
+.destacado {
+	border-width: 5px;
+	border-color: green;
+	height: 40px;
+	border-style: solid;
+
+}

@@ -29,7 +29,7 @@ footer {
 	width: 100%;
 	background-color: #656565;
 	height: auto;
-	display: flex;	
+	display: flex;
 
 }
 div h1 {
@@ -73,6 +73,18 @@ div h3 {
 	width: 100%;
 }
 
+
+@keyframes iconos {
+	0%{background-color: red;} 
+	50%{background-color: black; transform: translate(10px, 0px);}
+	100%{background-color: blue; transform: translate(-10px, 0px);}
+}
+.cotenedor.iconos:hover {
+	animate-name:iconos;
+	animation-duration:5px;
+	animatios-delay: 1,3s;
+	animation-timing-function: ease-in-out;
+}
 .img-circulo1 {
 	width: 100px;
     height: 100px;
@@ -82,8 +94,6 @@ div h3 {
     border-radius: 50%;
     background: #00BFFF;
     margin-right: 50px;
-
-
 }
 .img-circulo2 {
 	width: 100px;

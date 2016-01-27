@@ -1,0 +1,123 @@
+body {
+	font-family: 'Raleway','Open Sans', verdana, sans-serif;
+	font-size: 0.8em;
+	width: 100%;
+	margin-top: 0px; 
+}
+nav {
+	margin-top: 0px;
+	width: 100%;
+	float: left;
+}
+p {
+	color: #D3D3D3;
+}
+/*div th {
+	background-color: none;*/
+}
+header {
+	width: 100%;
+	float: left;
+}
+
+section {
+	width: 100%;
+	float: left;
+
+}
+footer {
+	width: 100%;
+	background-color: #656565;
+	height: auto;
+	display: flex;
+
+}
+div h1 {
+	font-size: 2.5em;
+}
+div h3 {
+	font-size: 1em;
+	color: #C0C0C0;
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1173px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	float: left;
+	margin: 10px 20px;
+}
+.menu {	
+	float: right;
+	height: auto;
+	margin: 10px 20px;
+	vertical-align: center;
+}
+
+.menu ul {
+	list-style: none;
+	height: auto;
+	line-height: 0.8em;
+}
+
+.menu ul li {
+	float: left;
+	margin-right: 20px;
+}
+.imagen {
+	width: 100%;
+}
+.img-circulo1 {
+	width: 100px;
+    height: 100px;
+    border: 2px solid #D3D3D3;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #00BFFF;
+    margin-right: 50px;
+}
+.img-circulo2 {
+	width: 100px;
+    height: 100px;
+    border: 2px solid #D3D3D3;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #FFD700;
+    margin-right: 50px;
+}
+.img-circulo3 {
+	width: 100px;
+    height: 100px;
+    border: 2px solid #D3D3D3;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #FF8C00;
+    margin-right: 50px;
+}
+.img-circulo4 {
+	width: 100px;
+    height: 100px;
+    border: 2px solid #D3D3D3;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #C71585;
+	margin-right: 50px;
+
+}
+.items ul li{
+	font-size: 1em;
+	list-style: none;
+
+}
+
+
+

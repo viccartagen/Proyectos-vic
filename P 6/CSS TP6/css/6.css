@@ -3,6 +3,7 @@ body {
 	font-size: 0.8em;
 	width: 100%;
 	margin-top: 5px; 
+	background-color: #F5F5F5;
 }
 nav {
 	margin-top: 5px;
@@ -10,10 +11,9 @@ nav {
 	float: left;
 }
 p {
-	color: #D3D3D3;
-}
-/*div th {
-	background-color: none;*/
+	color: #008080;
+	margin: 20px;
+	width: 90%;
 }
 header {
 	width: 100%;
@@ -28,12 +28,20 @@ footer {
 	width: 100%;
 	padding: 1px, 2px;
 }
+
 div h1 {
 	font-size: 2.5em;
 }
+
 div h3 {
 	font-size: 1em;
 	color: #C0C0C0;
+}
+article h1 {
+	font-size: 2em;
+}
+article h1 p {
+	font-size: 0.8em;
 }
 
 .contenedor {
@@ -45,9 +53,11 @@ div h3 {
 }
 .contenedor2 {
 	width: 100%;
-	height: auto;
+	height: 130px;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #48D1CC;
+	padding: 10px, 20px;
 
 	display: inline-flex;
 	flex-direction: row;
@@ -63,13 +73,11 @@ div h3 {
 	margin: 10px 20px;
 	vertical-align: center;
 }
-
 .menu ul {
 	list-style: none;
 	height: auto;
 	line-height: 0.8em;
 }
-
 .menu ul li {
 	float: left;
 	margin-right: 20px;
@@ -77,23 +85,9 @@ div h3 {
 .imagen {
 	max-width: 1000px;
 }
-
-@keyframes iconos {
-	0%{background-color: red;} 
-	50%{background-color: black; transform: translate(10px, 0px);}
-	100%{background-color: blue; transform: translate(-10px, 0px);}
-}
-/*.iconos:hover {
-	animation-name:iconos;
-	animation-duration:5px;
-	animatios-delay: 1,3s;
-	animation-timing-function: ease-in-out;*/
-}
-
-.iconos {
+.iconos:hover {
 	width: 80px;
     height: 80px;
-    border: 2px solid #D3D3D3;
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
@@ -102,17 +96,11 @@ div h3 {
 
     display: inline-flex;
 	flex-direction: row;
-
-	animation-name:iconos;
-	animation-duration:5px;
-	animatios-delay: 1,3s;
-	animation-timing-function: ease-in-out;
 }
 
 .iconos {
 	width: 80px;
     height: 80px;
-    border: 2px solid #D3D3D3;
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
@@ -121,47 +109,38 @@ div h3 {
 
     display: inline-flex;
 	flex-direction: row;
-
-	animation-name:iconos;
-	animation-duration:5px;
-	animatios-delay: 1,3s;
-	animation-timing-function: ease-in-out;
 }
 
 .iconos {
 	width: 80px;
     height: 80px;
-    border: 2px solid #D3D3D3;
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
     background: #FF8C00;
     margin-right: 100px;
+    padding: 10px, 10px;
 
     display: inline-flex;
 	flex-direction: row;
-
-	animation-name:iconos;
-	animation-duration:5px;
-	animatios-delay: 1,3s;
-	animation-timing-function: ease-in-out;
 }
 
 .iconos {
 	width: 80px;
     height: 80px;
-    border: 2px solid #D3D3D3;
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    background: #C71585;
+    background: #20B2AA;
 	margin-right: 100px;
 
 	display: inline-flex;
 	flex-direction: row;
+}
 
+.iconos:hover {
 	animation-name:iconos;
-	animation-duration:5px;
+	animation-duration: 2s;
 	animatios-delay: 1,3s;
 	animation-timing-function: ease-in-out;
 }
@@ -183,18 +162,84 @@ div h3 {
 }
 .tablas {
 	width: 100%;
-	height: auto;
+	height: 200px;
 	border:2px;
+	margin: 20px, 20px;
+
 	display: inline-flex;
 	flex-direction: row;
 
 }
-
-.cajastabla3 {
-	 width: 250px; 
-     height: 100px; 
-     border: 3px solid #555;
+.cajastabla1 {
+	 width: 100px; 
+     height: 200px; 
+     border: 1px solid #DCDCDC;
      background: white;
+     margin: 10px, 20px;
+
+     display: inline-flex;
+	 flex-direction: row;
+}
+.cajastabla2 {
+	 width: 100px; 
+     height: 200px; 
+     border: 1px solid #DCDCDC;
+     background: white;
+     margin: 10px, 20px;
+
+     display: inline-flex;
+	 flex-direction: row;
+}
+.cajastabla3 {
+	 width: 100px; 
+     height: 200px; 
+     border: 1px solid #DCDCDC;
+     background: white;
+     margin: 10px, 20px;
+
+     display: inline-flex;
+	 flex-direction: row;
+}
+.cajastabla4 {
+	 width: 100px; 
+     height: 200px; 
+     border: 1px solid #DCDCDC;
+     background: white;
+     margin: 10px, 20px;
+
+     display: inline-flex;
+	 flex-direction: row;
+}
+.footer2 {
+	width: 100%;
+	height: 70px;
+	background-color: #008080;
+
+	display: inline-flex;
+	flex-direction: row;
+}
+	.footer2 div span {
+		margin: 20px;
+		width: 90%;	
+
+		display: inline-flex;
+		flex-direction: row;
+}
+
+@keyframes iconos {
+    0% {
+    	transform: scale(1);
+    	border-radius: 100%;
+    	background-color: #20B2AA;
+}
+	50% {
+		transform: scale(1.2);
+		background-color: #48D1CC;
+}
+	100% {
+    	transform: scale(1);
+    	border-radius: 100%;
+    	background-color: #008080;
 }
 
 @media screen and (max-width: 600px); {

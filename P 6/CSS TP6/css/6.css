@@ -91,7 +91,7 @@ article h1 p {
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    background: #00BFFF;
+    background: #00CED1;
     margin-right: 100px;
 
     display: inline-flex;
@@ -104,7 +104,7 @@ article h1 p {
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    background: #FFD700;
+    background: #00CED1;
     margin-right: 100px;
 
     display: inline-flex;
@@ -117,7 +117,7 @@ article h1 p {
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    background: #FF8C00;
+    background: #00CED1;
     margin-right: 100px;
     padding: 10px, 10px;
 
@@ -131,7 +131,7 @@ article h1 p {
     border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    background: #20B2AA;
+    background: #00CED1;
 	margin-right: 100px;
 
 	display: inline-flex;
@@ -148,6 +148,7 @@ article h1 p {
 .items {
 	width: 100%;
 	height: auto;
+	margin:20px, 20px;
 
 	display: inline-flex;
 	flex-direction: row;
@@ -155,6 +156,7 @@ article h1 p {
 .items2 {
 	width: 100%;
 	height: auto;
+	margin:20px, 20px;
 
 	display: inline-flex;
 	flex-direction: row;

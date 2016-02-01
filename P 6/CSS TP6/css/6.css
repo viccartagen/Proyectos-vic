@@ -10,11 +10,6 @@ nav {
 	width: 100%;
 	float: left;
 }
-p {
-	color: #008080;
-	margin: 20px;
-	width: 90%;
-}
 header {
 	width: 100%;
 }
@@ -44,6 +39,12 @@ article h1 p {
 	font-size: 0.8em;
 }
 
+.img-responsive {
+width: 100%;
+height: auto;
+
+}
+
 .contenedor {
 	width: 100%;
 	max-width: 1173px;
@@ -61,6 +62,7 @@ article h1 p {
 
 	display: inline-flex;
 	flex-direction: row;
+
 }
 
 .logo {
@@ -82,106 +84,108 @@ article h1 p {
 	float: left;
 	margin-right: 20px;
 }
-.imagen {
-	max-width: 1000px;
+
+.buscador {
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.iconos:hover {
-	width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border-radius: 50%;
+
+.contenerico {
+	width: 100%;
+	display: flex;
+    display: -webkit-flex; /* Para navegadores webkit, como Safari */
+}
+
+.contenerico-item {
+	width: auto;
+	display: flex;
+    display: -webkit-flex;   
+    flex-direction: row;     
+   -webkit-flex-direction: row; 
+
+}
+
+.icono1 {
+	width: 120px;
+    height: 120px;
     border-radius: 50%;
     background: #00CED1;
-    margin-right: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    order: 1;
+    -webkit-order: 1;
 
     display: inline-flex;
-	flex-direction: row;
+	flex-direction: column;
 }
-
-.iconos {
-	width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border-radius: 50%;
-    border-radius: 50%;
-    background: #00CED1;
-    margin-right: 100px;
-
-    display: inline-flex;
-	flex-direction: row;
-}
-
-.iconos {
-	width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border-radius: 50%;
-    border-radius: 50%;
-    background: #00CED1;
-    margin-right: 100px;
-    padding: 10px, 10px;
-
-    display: inline-flex;
-	flex-direction: row;
-}
-
-.iconos {
-	width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border-radius: 50%;
-    border-radius: 50%;
-    background: #00CED1;
-	margin-right: 100px;
-
-	display: inline-flex;
-	flex-direction: row;
-}
-
-.iconos:hover {
-	animation-name:iconos;
+.icono1:hover {
+	animation-name:icono1;
 	animation-duration: 2s;
 	animatios-delay: 1,3s;
 	animation-timing-function: ease-in-out;
 }
+@keyframes icono1 {
+    0% {
+    	transform: scale(1);
+    	border-radius: 100%;
+    	background-color: #20B2AA;
+}
+	50% {
+		transform: scale(1.2);
+		background-color: #48D1CC;
+}
+	100% {
+    	transform: scale(1);
+    	border-radius: 100%;
+    	background-color: #008080;
+}
+}
 
-.items {
-	width: 100%;
-	height: auto;
-	margin:20px, 20px;
 
+/* Article servicio*/
+
+.servicios {
 	display: inline-flex;
 	flex-direction: row;
+	aling-items: center;
 }
-.items2 {
-	width: 100%;
-	height: auto;
-	margin:20px, 20px;
+.servicio-item {
+	aling-items: center;
+ display: flex;
+    display: -webkit-flex;   
+    flex-direction: column;     
+   -webkit-flex-direction: column; 
+}
+.servicios ul {
+	font-size: 1.2em;
+	color: #008B8B;
+}
+.servicios ul li {
+	padding-top: 5px;
+}
 
+.tarifa {
 	display: inline-flex;
 	flex-direction: row;
+	
 
 }
-.tablas {
-	width: 100%;
-	height: 200px;
-	border:2px;
-	margin: 20px, 20px;
 
-	display: inline-flex;
-	flex-direction: row;
+.tarifa-item {
+	border: solid #000;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+    display: -webkit-flex;   
+    flex-direction: column;     
+   -webkit-flex-direction: column; 
 
 }
-.cajastabla1 {
-	 width: 100px; 
-     height: 200px; 
-     border: 1px solid #DCDCDC;
-     background: white;
-     margin: 10px, 20px;
 
-     display: inline-flex;
-	 flex-direction: row;
-}
+
 .cajastabla2 {
 	 width: 100px; 
      height: 200px; 
@@ -220,34 +224,16 @@ article h1 p {
 	display: inline-flex;
 	flex-direction: row;
 }
-	.footer2 div span {
-		margin: 20px;
-		width: 90%;	
-
-		display: inline-flex;
-		flex-direction: row;
+.footer2 p {
+	color: #008080;
+	margin: 20px;
+	width: 90%;
 }
 
-@keyframes iconos {
-    0% {
-    	transform: scale(1);
-    	border-radius: 100%;
-    	background-color: #20B2AA;
-}
-	50% {
-		transform: scale(1.2);
-		background-color: #48D1CC;
-}
-	100% {
-    	transform: scale(1);
-    	border-radius: 100%;
-    	background-color: #008080;
-}
-
-@media screen and (max-width: 600px); {
+/*@media screen and (max-width: 600px); {
 	body {
         background-color: #AFEEEE;
-        font-size: 2em;
+        font-size: 2em;*/
     }
 
 }

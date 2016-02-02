@@ -52,18 +52,7 @@ height: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
-.contenedor2 {
-	width: 100%;
-	height: 130px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #48D1CC;
-	padding: 10px, 20px;
 
-	display: inline-flex;
-	flex-direction: row;
-
-}
 
 .logo {
 	float: left;
@@ -148,13 +137,16 @@ height: auto;
 /* Article servicio*/
 
 .servicios {
+	width: 100%;
 	display: inline-flex;
 	flex-direction: row;
-	aling-items: center;
 }
-.servicio-item {
-	aling-items: center;
- display: flex;
+.servicios-item {
+	height: auto;
+	width:23%;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
     display: -webkit-flex;   
     flex-direction: column;     
    -webkit-flex-direction: column; 
@@ -168,14 +160,14 @@ height: auto;
 }
 
 .tarifa {
+	width: 100%;
 	display: inline-flex;
 	flex-direction: row;
-	
-
 }
-
 .tarifa-item {
 	border: solid #000;
+	height: auto;
+	width:23%;
 	padding: 20px;
 	margin: 20px;
 	display: flex;
@@ -185,49 +177,34 @@ height: auto;
 
 }
 
-
-.cajastabla2 {
-	 width: 100px; 
-     height: 200px; 
-     border: 1px solid #DCDCDC;
-     background: white;
-     margin: 10px, 20px;
-
-     display: inline-flex;
-	 flex-direction: row;
-}
-.cajastabla3 {
-	 width: 100px; 
-     height: 200px; 
-     border: 1px solid #DCDCDC;
-     background: white;
-     margin: 10px, 20px;
-
-     display: inline-flex;
-	 flex-direction: row;
-}
-.cajastabla4 {
-	 width: 100px; 
-     height: 200px; 
-     border: 1px solid #DCDCDC;
-     background: white;
-     margin: 10px, 20px;
-
-     display: inline-flex;
-	 flex-direction: row;
+.footer1 {
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #008080;
 }
 .footer2 {
 	width: 100%;
-	height: 70px;
-	background-color: #008080;
+	height: auto;
+	background-color: #48D1CC;
 
-	display: inline-flex;
-	flex-direction: row;
+
 }
 .footer2 p {
 	color: #008080;
 	margin: 20px;
 	width: 90%;
+}
+
+.cont-footer1 {
+	width: 100%;
+	height: 130px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px, 20px;
+
+	
+
 }
 
 /*@media screen and (max-width: 600px); {

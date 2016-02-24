@@ -5,7 +5,7 @@ html {
 font-size: 1em;
 font-family: 'Roboto';
 background-color: #262626;
-color: #d9d9d9;
+color: #FFFFFF;
 }
 body {
 margin: 0;
@@ -18,6 +18,10 @@ height: auto;
 h1,h2,h3,h4,h5,h6 {
 font-family: 'Roboto';/*Obtenida de Google Fonts*/
 line-height: 1.313em;
+color: #FFFFFF;
+}
+p {
+  color: #FFFFFF;
 }
 h1 {
 font-size: 3em;
@@ -47,6 +51,7 @@ margin: 0.75em 0;
 .smallscreen {
 display: none;
 }
+
 .contenido {
 font-size: 1.875rem;
 color: #262626;
@@ -61,36 +66,40 @@ font-size: 1.5em;
 padding: 0rem 1em;
 text-align: left;
 }
-.right {
-padding: 1.618em 6.472em 3.236em 50%;
-background-position: 0 50%;
-}
-.img_01 {
-background-color: #60C0D8; /*Color de fondo para la primera sección*/
-background-image: url("../images/hd_blush.png"); /*Imagen de fondo para la primera sección */
-}
 
+.titulosep {
+text-align: center;
+}
 .separador {
 font-size: 1.875rem;
 padding:0;
 text-align: center;
 }
+.right {
+padding: 1.618em 6.472em 3.236em 50%;
+background-position: 0 50%;
+}
 .left {
 padding: 1.618em 50% 3.236em 6.472em;
 background-position: 100% 50%;
 }
+.img_01 {
+background-color: #990066; /*Color de fondo para la primera sección*/
+background-image: url("img/girl.png"); /*Imagen de fondo para la primera sección */
+}
+
 .img_02 {
-background-color: #e8697b;
-background-image: url("../images/girl.png");/*La imagen coincide siempre con la que se enlaza en el contenedor con clase smallscreen de esta sección*/
+background-color: #FF4500;
+background-image: url("img/hd_blush.png");/*La imagen coincide siempre con la que se enlaza en el contenedor con clase smallscreen de esta sección*/
 }
 
 .img_03 {
-background-color: #14b29a;
-background-image: url("../images/makeup.png");
+background-color: #FFA500;
+background-image: url("img/makeup.png");
 }
 .img_04 {
-background-color: #F1A080;
-background-image: url("../images/model.png");
+background-color: #48D1CC;
+background-image: url("img/model.png");
 }
 
 @media (max-width: 106.25rem) {
@@ -104,8 +113,8 @@ background-image: url("../images/model.png");
   .separador {
    font-size: 1.5rem;
   }
- .right {
-   padding: 1.618em 4.854em 1.618em 50%;
+   .right {
+     padding: 1.618em 4.854em 1.618em 50%;
  }
  .left {
    padding: 1.618em 50% 1.618em 4.854em;
@@ -147,7 +156,7 @@ background-image: url("../images/model.png");
   .smallscreen {
   display: block;
  }
- .right {
+  .right {
     padding: 1.618em 3.236em;
     background-image: none;
 }
@@ -174,3 +183,4 @@ background-image: url("../images/model.png");
   html {
  min-width: 12rem;
  }
+}

@@ -1,0 +1,58 @@
+<DOCTYPE! html>
+<html>
+
+<head> 
+	<!--ejem ejercicio calculadora-->
+	<script type="text/javascript">
+
+		function calculadora() {
+			var resultado;
+			var operador1 = document.getElementById('op1').value;
+			var operador2 = document.getElementById('op2').value;
+			var operacion = document.getElementById('oper').value;
+
+
+				switch(operacion) {
+
+					case "suma":
+						resultado = Number(operador1)+Number(operador2);
+						break;
+
+					case "resta":
+						resultado = operador1-operador2;
+						break;
+
+					case "multiplica":
+						resultado = operador1*operador2;
+						break;
+
+					case "divide":
+						resultado = operador1 / operador2;
+						break;
+
+				}
+
+				alert(resultado);
+				return resultado;
+
+			}
+
+	</script>
+
+</head>
+<body>
+	<form id="form1">
+		operador1: <input id="op1" type="number" name="operador1">
+		<br>
+		operador2: <input id="op2" type="number" name="operador2">
+		<br>
+		operacion: <input id="oper" type="text" name="operacion">
+		<br>
+	</form>
+	<button onclick="calculadora()">Calcular</button>
+</body>
+
+<footer>
+</footer>
+
+</html>
